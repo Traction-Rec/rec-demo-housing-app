@@ -1,3 +1,5 @@
+#!/usr/bin/env groovy
+
 pipeline {
     agent any
 
@@ -5,7 +7,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 checkout scm
-                echo "Checked out branch: \${env.BRANCH_NAME}", url: 'your-repo-url'
+                git branch: env.BRANCH_NAME, credentialsId: 'Ci-Pipeline', url: 'your-repo-url'
             }
         }
 
