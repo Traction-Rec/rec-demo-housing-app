@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-pipeline {
+pipeline { 
     agent any
 
     stages {
