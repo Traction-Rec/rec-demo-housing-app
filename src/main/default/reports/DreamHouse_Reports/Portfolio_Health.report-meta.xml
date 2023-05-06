@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+<Report xmlns="https://soap.sforce.com/2006/04/metadata">
     <buckets>
         <bucketType>number</bucketType>
         <developerName>BucketField_33803839</developerName>

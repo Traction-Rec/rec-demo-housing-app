@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+<CompactLayout xmlns="https://soap.sforce.com/2006/04/metadata">
     <fullName>Broker_Compact</fullName>
     <fields>Name</fields>
     <fields>Title__c</fields>
